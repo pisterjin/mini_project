@@ -1,0 +1,34 @@
+header {
+  height: 10%;
+  display: grid;
+  grid-template-columns: 10% 50% 1fr;
+  background-color: yellow;
+  gap: 10%;
+  margin: 0 5%;
+}
+
+header .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+}
+
+header .search {
+  display: flex;
+  align-items: center;
+  background-color: blue;
+}
+
+header .login {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+}
+
+main {
+  height: 100%;
+  background-color: aqua;
+}
